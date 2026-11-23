@@ -19,6 +19,9 @@ public class BankSolid {
 
         Notifikasi notifikasi = new EmailNotifikasi();
 
+        // Pengujian SMS berhasil.
+// Hanya 1 baris yang perlu diubah untuk mengganti Email menjadi SMS.
+
         ProsesAkhirBulan proses =
                 new ProsesAkhirBulan(notifikasi);
 
